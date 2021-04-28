@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+
+	    <style>
+         body {
+            height:3000px;
+         }
+         .among-us {
+            z-index: 10;
+            position: absolute;
+         }
+
+          #bg-block {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            min-width: 100%;
+            min-height: 100%;
+            background: url('images/bg.png') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -webkit-filter: blur(1px);
+         }
+      </style>
+     
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+	   <script src="js/skrollr.min.js"></script>
+</head>
+
+
+
+<body>
+ <div id="bg-block">
+      </div>
+	  
+ <div class="among-us" style="top:150px;width:100%;text-align:center">
+         <img src="images/main.png" style="width: 500px; opacity: 1; -webkit-filter: blur(0px);" data-0="opacity: 1;-webkit-filter: blur(0px);" data-100="opacity: 0.5;-webkit-filter: blur(2px);" class="skrollable skrollable-between">
+      </div>
+	  
+     <div class="among-us" style="top:700px;width:100%;text-align:center">
+         <img src="images/shhh.png" style="width: 500px; opacity: 0; -webkit-filter: blur(5px);" data-500="opacity: 0;-webkit-filter: blur(5px);" data-600="opacity: 1;-webkit-filter: blur(0px);" class="skrollable skrollable-before">
+      </div>
+
+
+      <div class="among-us skrollable " style="top: 600px; opacity: 1; left: -500px; -webkit-filter: blur(0px);" data-300="opacity: 1;left: -500px;-webkit-filter: blur(0px);" data-600="opacity: 1;left: 300px;-webkit-filter: blur(0px);" data-900="opacity: 0;left: 400px;-webkit-filter: blur(5px);">
+         <img src="images/1.png" style="width:200px;">
+      </div>
+      <div class="among-us skrollable skrollable-before" style="top: 900px; opacity: 1; right: -500px; -webkit-filter: blur(0px);" data-600="opacity: 1;right: -500px;-webkit-filter: blur(0px);" data-900="opacity: 1;right: 300px;-webkit-filter: blur(0px);" data-1200="opacity: 0;right: 400px;-webkit-filter: blur(5px);">
+         <img src="images/2.png" style="width:300px;">
+      </div>
+
+      <div class="among-us" style="top:1500px;width:100%;text-align:center">
+         <img src="images/imposter.png" style="width: 700px; opacity: 0; -webkit-filter: blur(5px);" data-1300="opacity: 0;-webkit-filter: blur(3px);" data-1400="opacity: 1;-webkit-filter: blur(0px);" class="skrollable skrollable-before">
+      </div>
+
+      <div class="among-us skrollable skrollable-before" style="top: 1200px; opacity: 1; left: -500px; -webkit-filter: blur(0px);" data-900="opacity: 1;left: -500px;-webkit-filter: blur(0px);" data-1200="opacity: 1;left: 300px;-webkit-filter: blur(0px);" data-1500="opacity: 0;left: 400px;-webkit-filter: blur(5px);">
+         <img src="images/3.png" style="width:300px;">
+      </div>
+      <div class="among-us skrollable skrollable-before" style="top: 1500px; opacity: 1; right: -500px; -webkit-filter: blur(0px);" data-1200="opacity: 1;right: -500px;-webkit-filter: blur(0px);" data-1500="opacity: 1;right: 300px;-webkit-filter: blur(0px);" data-1800="opacity: 0;right: 400px;-webkit-filter: blur(5px);">
+         <img src="images/4.png" style="width:250px;">
+      </div>
+      <div class="among-us skrollable skrollable-before" style="top: 1800px; opacity: 1; left: -500px; -webkit-filter: blur(0px);" data-1500="opacity: 1;left: -500px;-webkit-filter: blur(0px);" data-1800="opacity: 1;left: 300px;-webkit-filter: blur(0px);" data-2100="opacity: 0;left: 400px;-webkit-filter: blur(5px);">
+         <img src="images/5.png" style="width:350px;">
+      </div>
+      <div class="among-us skrollable skrollable-before" style="top: 2100px; opacity: 1; right: -500px; -webkit-filter: blur(0px);" data-1800="opacity: 1;right: -500px;-webkit-filter: blur(0px);" data-2100="opacity: 1;right: 300px;-webkit-filter: blur(0px);" data-2400="opacity: 0;right: 400px;-webkit-filter: blur(5px);">
+         <img src="images/6.png" style="width:300px;">
+      </div>
+      <div class="among-us skrollable skrollable-before" style="top: 2400px; opacity: 1; left: -500px; -webkit-filter: blur(0px);" data-2100="opacity: 1;left: -500px;-webkit-filter: blur(0px);" data-2400="opacity: 1;left: 300px;-webkit-filter: blur(0px);" data-2500="opacity: 0;left: 400px;-webkit-filter: blur(5px);">
+         <img src="images/7.png" style="width:300px;">
+      </div>
+    
+      <div class="among-us" style="top:2900px;width:100%;text-align:center">
+         <img src="images/dead.png" style="width: 100%; opacity: 0; -webkit-filter: blur(5px);" data-2600="opacity: 0;-webkit-filter: blur(5px);" data-2800="opacity: 1;-webkit-filter: blur(0px);" class="skrollable skrollable-before">
+      </div>
+      <div class="among-us" style="top:3900px;width:100%;text-align:center">
+         <img src="images/victory.png" style="width: 700px; opacity: 0; -webkit-filter: blur(5px);" data-3700="opacity: 0;-webkit-filter: blur(5px);" data-3800="opacity: 1;-webkit-filter: blur(0px);" class="skrollable skrollable-before">
+      </div>
+      <script type="text/javascript">
+      var skrollr_obj = skrollr.init();
+      </script>
+   
+</body>
+</html>
